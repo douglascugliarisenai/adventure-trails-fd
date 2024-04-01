@@ -1,0 +1,75 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.card_container{
+    display: flex;
+    box-shadow: .2em .2em .5em rgba(0, 0, 0, .5);
+    height: 15em;
+    width: 45em;
+}
+
+.card_imagem{
+    background-position: center;
+}
+
+.card_detalhes{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_card{
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.curtir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.container_autor{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.fonte_autor{
+    font-size: 16px;
+}
+
+.card_body{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.fonte_body{
+    color: #5C6670;
+    font-size: 16px;
+}
+
+.dificuldade{
+    display: flex;
+    justify-content: center;
+    background-color: #EFF0F0;
+    margin-top: 20px;
+    width: 80px;
+    border-radius: 15px;
+}
