@@ -1,0 +1,40 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "nomeTrilha": "Trilha da Costa da Lagoa",
+            "cidade": "Florianópolis",
+            "estado": "SC",
+            "duracao": 120,
+            "trajeto": 4,
+            "dificuldade": "Iniciante",
+            "tipoTrilha": "caminhada/trekking",
+            "nomeCriador": "Douglas Santos",
+            "UrlImagem": "../src/assets/imagem-trilha-exemplo.jpg",
+        },
+        {
+            "id": 2,
+            "nomeTrilha": "Trilha da Praia dos Naufragados",
+            "cidade": "Florianópolis",
+            "estado": "SC",
+            "duracao": 20,
+            "trajeto": 2.6,
+            "dificuldade": "Iniciante",
+            "tipoTrilha": "caminhada/trekking",
+            "nomeCriador": "Douglas Santos",
+            "UrlImagem": "../src/assets/imagem-trilha-exemplo.jpg",
+        },
+        {
+            "id": 3,
+            "nomeTrilha": "Trilha Ecológica do Rio Vermelho",
+            "cidade": "Florianópolis",
+            "estado": "SC",
+            "duracao": 10,
+            "trajeto": 1,
+            "dificuldade": "Iniciante",
+            "tipoTrilha": "caminhada/trekking",
+            "nomeCriador": "Douglas Santos",
+            "UrlImagem": "../src/assets/imagem-trilha-exemplo.jpg",
+        }
+    ]
+}
