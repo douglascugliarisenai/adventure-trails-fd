@@ -1,10 +1,11 @@
+/* eslint-disable */
 import * as PropTypes from "prop-types";
 import "./style.css";
 
 function CardTrilha({ dadosTrilha }) {
   return (
     <div className="card_container">
-      <img className="card_imagem" src={dadosTrilha.UrlImagem} alt="Imagem Trilha" width={200} />
+      <img className="card_imagem" src={dadosTrilha.urlImagem} alt="Imagem Trilha" width={200} />
       <div className="card_detalhes">
           <div className="card_header">
             <h1 className="titulo_card">{dadosTrilha.nomeTrilha} - {dadosTrilha.cidade} / {dadosTrilha.estado}</h1>
@@ -35,7 +36,7 @@ CardTrilha.PropTypes = {
     dificuldade: PropTypes.string.isRequired,
     tipoTrilha: PropTypes.oneOf(["caminhada/trekking", "ciclismo"]), //Enum do PropTypes
     nomeCriador: PropTypes.string.isRequired,
-    UrlImagem: PropTypes.string.isRequired,
+    urlImagem: PropTypes.string.isRequired,
   }),
 };
 
