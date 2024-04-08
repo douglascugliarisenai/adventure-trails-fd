@@ -3,6 +3,7 @@
 import CardTrilha from "./components/CardTrilla";
 import "./App.css";
 import getJson from "./hooks/getJson";
+import Header from "./components/Header";
 
 
 
@@ -14,6 +15,8 @@ function App() {
   
   
   return (
+    <>
+    <Header />
     <div className="container">
       <h1 className="titulo">Explore trilhas incríveis</h1>
         {loading && <h4>Carregando Cards...</h4>}
@@ -25,6 +28,7 @@ function App() {
         )}
       
     </div>
+    </>
   );
 }
 

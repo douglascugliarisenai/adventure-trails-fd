@@ -8,6 +8,9 @@
 
 .titulo {
     margin: 1em auto;
+    margin-bottom: 100px;
     color: #504908;
-;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
 }
