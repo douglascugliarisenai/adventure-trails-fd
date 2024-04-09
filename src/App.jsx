@@ -3,7 +3,7 @@
 import CardTrilha from "./components/CardTrilla";
 import "./App.css";
 import getJson from "./hooks/getJson";
-import Header from "./components/Header";
+import Header from "./components/TrilhasHeader";
 
 
 
