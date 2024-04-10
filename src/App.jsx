@@ -1,35 +1,17 @@
-/* eslint-disable */
-
-import CardTrilha from "./components/CardTrilla";
+import { Outlet } from "react-router-dom";
+import TrilhasHeader from "./components/TrilhasHeader";
+import TrilhasFooter from "./components/TrilhasFooter";
 import "./App.css";
-import getJson from "./hooks/getJson";
-import Header from "./components/TrilhasHeader";
 
-
-
+/* eslint-disable */
 function App() {
-
-  // const cards = fetch("../public/data/cards.json").then((res) => res.json());
-  
-  const [cards, loading] = getJson("../public/data/cards.json");
-  
-  
-  return (
-    <>
-    <Header />
-    <div className="container">
-      <h1 className="titulo">Explore trilhas incríveis</h1>
-        {loading && <h4>Carregando Cards...</h4>}
-
-        {!loading &&  cards !== null && (
-          cards.map((cards, index) => (
-            <CardTrilha dadosTrilha={cards} key={index}/>
-          ))
-        )}
-      
-    </div>
-    </>
-  );
+ return (
+  <>
+   <TrilhasHeader />
+   <Outlet />
+   <TrilhasFooter />
+  </>
+ );
 }
 
-export default App
+export default App;
