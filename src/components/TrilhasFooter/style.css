@@ -1,4 +1,38 @@
-.footer {
+.container-footer {
  display: flex;
  justify-content: center;
+ height: 60px;
+ width: 100%;
+}
+
+.footer {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 60px;
+ width: 100%;
+ background-color: #504908;
+}
+
+.footer span {
+ color: white;
+ font-size: 16px;
+ font-weight: 700;
+ font-family: "Inter", sans-serif;
+ margin-left: 50px;
+}
+
+.footer ul {
+ display: flex;
+ justify-content: space-around;
+ color: white;
+ font-size: 16px;
+ font-weight: 700;
+ font-family: "Inter", sans-serif;
+ list-style-type: none;
+ margin-right: 50px;
+}
+
+.footer ul li {
+ margin: 0 10px;
 }

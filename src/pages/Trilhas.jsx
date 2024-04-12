@@ -8,7 +8,10 @@ function Trilhas() {
  const [cards, loading] = getJson("../public/data/cards.json");
 
  return (
-  <>
+  <div className="container-trilhas">
+   <div className="image">
+    <img src="../src/assets/imagem-principal.png" alt="Imagem Header" />
+   </div>
    <div className="container">
     <h1 className="titulo">Explore trilhas incríveis</h1>
     {loading && <h4>Carregando Cards...</h4>}
@@ -19,7 +22,7 @@ function Trilhas() {
       <CardTrilha dadosTrilha={cards} key={index} />
      ))}
    </div>
-  </>
+  </div>
  );
 }
 

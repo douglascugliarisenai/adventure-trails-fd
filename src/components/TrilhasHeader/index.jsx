@@ -21,9 +21,6 @@ function TrilhasHeader() {
      </li>
     </ul>
    </div>
-   <div className="image">
-    <img src="../src/assets/imagem-principal.png" alt="Imagem Header" />
-   </div>
   </div>
  );
 }
