@@ -1,5 +1,5 @@
-import TrilhasFooter from "../components/TrilhasFooter";
-import TrilhasHeader from "../components/TrilhasHeader";
+import TrilhasFooter from "../../components/organisms/TrilhasFooter";
+import TrilhasHeader from "../../components/organisms/TrilhasHeader";
 
 function Error() {
  return (

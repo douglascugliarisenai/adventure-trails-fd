@@ -1,0 +1,104 @@
+.containerPrincipalHome {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../../src/assets/imagem-principal.png");
+ background-size: 100%;
+ background-repeat: no-repeat;
+ height: 1024px;
+ width: 100%;
+}
+
+.containerPrincipalHome h1 {
+ display: flex;
+ justify-content: center;
+ margin-top: 295px;
+ margin-bottom: 50px;
+ font-size: 40px;
+ color: #ffffff;
+ text-align: center;
+ width: 35%;
+}
+
+.containerPrincipalHome span {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: "Inter", sans-serif;
+ font-size: 20px;
+ color: #ffffff;
+ text-align: justify;
+ width: 38%;
+ margin-bottom: 50px;
+}
+
+.containerExploreTrilhas {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.containerExploreTrilhas h1 {
+ color: #000000;
+ font-size: 48px;
+ font-family: "Montserrat", sans-serif;
+ margin: 100px 40px 20px 80px;
+}
+
+.containerExploreTrilhas span {
+ color: #504908;
+ font-size: 20px;
+ font-weight: 400;
+ font-family: "Montserrat", sans-serif;
+ margin: 50px 100px 100px 80px;
+ text-align: justify;
+}
+
+.containerExploreTrilhas {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 30px;
+}
+
+.containerCadastraTrilhas {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 200px;
+ margin: 100px 50px 50px 80px;
+}
+
+.containerCadastraTrilhas h1 {
+ color: #000000;
+ font-size: 58px;
+ width: 400;
+ font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 400;
+ font-style: normal;
+ margin-bottom: 50px;
+}
+
+.containerCadastraTrilhas img {
+ width: 650px;
+ height: 380px;
+ margin-bottom: 50px;
+}
+
+.containerCadastraTrilhas button {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 200px;
+ height: 40px;
+ background-color: #504908;
+ color: white;
+ padding: 10px 20px;
+ border-radius: 5px;
+ font-size: 14px;
+ font-weight: 700;
+ font-family: "Inter", sans-serif;
+ margin-bottom: 50px;
+ box-shadow: 2px 3px 3px black;
+}

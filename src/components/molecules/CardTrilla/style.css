@@ -1,0 +1,95 @@
+body {
+ font-family: "Inter", sans-serif;
+}
+
+.card_container {
+ display: flex;
+ box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.5);
+ height: 351px;
+ width: 960px;
+ margin-bottom: 15px;
+}
+
+.card_imagem {
+ background-position: center;
+ width: 500px;
+}
+
+.card_detalhes {
+ display: flex;
+ flex-direction: column;
+ height: 351px;
+ width: 960px;
+}
+
+.card_header {
+ display: flex;
+ justify-content: space-around;
+ margin-top: 15px;
+}
+
+.titulo_card {
+ font-size: 25px;
+ display: flex;
+ margin-top: 10px;
+ margin-left: 15px;
+}
+
+.curtir {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: none;
+ border: none;
+ width: 25px;
+ height: 25px;
+ margin-top: 10px;
+}
+
+.container_autor {
+ display: flex;
+ justify-content: flex-end;
+ margin-top: 30px;
+ margin-right: 25px;
+}
+
+.fonte_autor {
+ font-size: 16px;
+}
+
+.card_body {
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+}
+
+.fonte_body {
+ color: #5c6670;
+ font-size: 16px;
+}
+
+.dificuldade {
+ display: flex;
+ justify-content: center;
+ background-color: #eff0f0;
+ width: 80px;
+ border-radius: 15px;
+}
+
+.rating {
+ display: flex;
+ align-items: center;
+ margin-top: 30px;
+}
+
+.rating img {
+ width: 212px;
+ height: 36px;
+}
+
+.rating li {
+ list-style: none;
+ margin-left: 35px;
+ text-decoration: underline;
+ font-size: 16px;
+}
