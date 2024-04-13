@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
-
 /* eslint-disable */
-function Home() {
- function acessarTrilhas() {
-  <Link to="/trilhas">Explorar Trilhas</Link>;
- }
 
+import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
+import CButton from "../../components/atoms/ButtonExplore/CButton";
+
+function Home() {
  return (
   <>
-   <div className="container-principal-home">
+   <div className={styles.containerPrincipalHome}>
     <h1>Que tal aproveitar um tempo com a natureza?</h1>
     <span>
      Junte-se à comunidade de entusiastas ao ar livre, compartilhe suas
@@ -16,15 +15,13 @@ function Home() {
      Prepare-se para explorar novos horizontes e se conectar com a natureza
      através do Adventure Trails!
     </span>
-    <button className="explorarTrilhas">Explorar trilhas</button>
-    <img
-     src="../../src/assets/imagem-principal.png"
-     alt="Imagem de uma trilha no alto do morro"
-     height={"1024px"}
-    />
+    <Link to="/trilhas">
+     {/* <button className={styles.btnExplorar}>Explorar trilhas</button> */}
+     <CButton>Explorar trilhas</CButton>
+    </Link>
    </div>
 
-   <div className="exploreTrilhas">
+   <div className={styles.containerExploreTrilhas}>
     <h1>Explore trilhas incríveis</h1>
     <span>
      O "Adventure Trails FD" é seu portal para explorar e compartilhar as
@@ -34,10 +31,12 @@ function Home() {
      detalhadas sobre cada trilha, incluindo distância, dificuldade, pontos de
      interesse naturais e dicas úteis para uma experiência eco-friendly.
     </span>
-    <button>Explorar trilhas</button>
+    <Link to="/trilhas">
+     <CButton>Explorar trilhas</CButton>
+    </Link>
    </div>
-   <div className="cadastraTrilhas">
-    <div className="dicas">
+   <div className={styles.containerCadastraTrilhas}>
+    <div>
      <h1>Compartilhe fotos, dicas e localização das suas trilhas favoritas</h1>
      <button>Cadastrar nova trilha</button>
     </div>

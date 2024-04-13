@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../pages/Home";
-import Trilhas from "../pages/Trilhas";
-import Cadastro from "../pages/Cadastro";
+import Home from "../pages/HomePage/Home";
+import Trilhas from "../pages/TrilhasPage/Trilhas";
+import Cadastro from "../pages/CadastroPage/Cadastro";
 import App from "../App";
-import Error from "../pages/Error";
+import Error from "../pages/ErrorPage/Error";
 
 const routers = createBrowserRouter([
  {

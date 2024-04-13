@@ -1,0 +1,33 @@
+.containerTrilhas {
+ display: flex;
+ flex-direction: column;
+ height: 100vw;
+}
+
+.image {
+ width: 100%;
+}
+
+.image img {
+ width: 100%;
+ height: 371px;
+ object-fit: cover;
+ filter: brightness(0.3) opacity(0.99);
+}
+
+.containerCards {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100vw;
+ width: 100%;
+}
+
+.titulo {
+ margin: 1em auto;
+ margin-bottom: 100px;
+ color: #504908;
+ font-size: 40px;
+ font-weight: 700;
+ font-family: "Inter", sans-serif;
+}

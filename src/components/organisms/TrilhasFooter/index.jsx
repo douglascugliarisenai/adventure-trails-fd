@@ -1,5 +1,5 @@
 import "./style.css";
-import "../../App.css";
+import "../../../../src/App.css";
 function TrilhasFooter() {
  return (
   <div className="container-footer">
