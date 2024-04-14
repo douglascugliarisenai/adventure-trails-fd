@@ -4,7 +4,7 @@
  flex-direction: column;
  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url("../../src/assets/imagem-principal.png");
- background-size: 100%;
+ background-size: 100% 100%;
  background-repeat: no-repeat;
  height: 1024px;
  width: 100%;
