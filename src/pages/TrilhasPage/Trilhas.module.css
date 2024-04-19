@@ -2,6 +2,7 @@
  display: flex;
  flex-direction: column;
  height: 100vw;
+ background-color: #b4b191;
 }
 
 .image {

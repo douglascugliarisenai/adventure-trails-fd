@@ -4,12 +4,7 @@
  flex-direction: column;
  font-family: "Inter", sans-serif;
  min-height: 100vh;
- background-color: #d8e3d2;
- background: url("../../../src/assets/imagem-principal.png"), white;
- background-blend-mode: multiply;
- background-repeat: no-repeat;
- background-position: center;
- background-size: 100%;
+ background-color: #b4b191;
 }
 
 .titulo {
