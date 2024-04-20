@@ -1,8 +1,8 @@
 .containerTrilhas {
  display: flex;
  flex-direction: column;
- height: 100vw;
- background-color: #b4b191;
+ min-height: 100vw;
+ background-color: #d8e3d2;
 }
 
 .image {
@@ -21,7 +21,7 @@
  flex-direction: column;
  align-items: center;
  width: 100vw;
- height: 100vh;
+ min-height: 100vw;
 }
 
 .titulo {
