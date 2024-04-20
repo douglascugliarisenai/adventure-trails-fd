@@ -15,8 +15,12 @@ export const TrilhasContextProvider = ({ children }) => {
   }
  }, [dados]);
 
+ function addTrail(trailData) {
+  setTrilhas((t) => [...t, trailData]);
+ }
+
  return (
-  <TrilhasContext.Provider value={{ trilhas, setTrilhas, isLoading }}>
+  <TrilhasContext.Provider value={{ trilhas, setTrilhas, isLoading, addTrail }}>
    {children}
   </TrilhasContext.Provider>
  );

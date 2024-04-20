@@ -86,12 +86,10 @@
  margin-bottom: 50px;
 }
 
-.containerCadastraTrilhas button {
+.containerCadastraTrilhas .buttonCadastrar {
  display: flex;
- align-items: center;
  justify-content: center;
- width: 200px;
- height: 40px;
+ align-items: center;
  background-color: #504908;
  color: white;
  padding: 10px 20px;
@@ -101,4 +99,11 @@
  font-family: "Inter", sans-serif;
  margin-bottom: 50px;
  box-shadow: 2px 3px 3px black;
+}
+
+.buttonCadastrar:hover {
+ cursor: pointer;
+ background-color: transparent;
+ color: #504908;
+ border: 1px solid #504908;
 }

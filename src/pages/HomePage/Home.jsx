@@ -3,6 +3,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import CButton from "../../components/atoms/ButtonExplore/CButton";
+import { Button } from "@mui/material";
 
 function Home() {
  return (
@@ -16,7 +17,6 @@ function Home() {
      através do Adventure Trails!
     </span>
     <Link to="/trilhas">
-     {/* <button className={styles.btnExplorar}>Explorar trilhas</button> */}
      <CButton>Explorar trilhas</CButton>
     </Link>
    </div>
@@ -38,7 +38,9 @@ function Home() {
    <div className={styles.containerCadastraTrilhas}>
     <div>
      <h1>Compartilhe fotos, dicas e localização das suas trilhas favoritas</h1>
-     <button>Cadastrar nova trilha</button>
+     <Link style={{ textDecoration: "none" }} to="cadastro">
+      <Button className={styles.buttonCadastrar}>Cadastrar nova trilha</Button>
+     </Link>
     </div>
     <img src="../../src/assets/trilha-home.jpg" alt="Imagem de Trilha" />
    </div>

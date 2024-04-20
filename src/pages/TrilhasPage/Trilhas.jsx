@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 import "../../components/molecules/CardTrilla/style.css";
 import CardTrilha from "../../components/molecules/CardTrilla";
 import styles from "./Trilhas.module.css";
