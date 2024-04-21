@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { TrilhasContext } from "../../context/TrilhasContext";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { TextField, Select, InputLabel, MenuItem } from "@mui/material";
 
 function Cadastro() {
@@ -15,6 +15,7 @@ function Cadastro() {
   formState: { errors }
  } = useForm();
  const { addTrail } = useContext(TrilhasContext);
+ const navigate = useNavigate();
 
  function sendForm(formValue) {
   console.log(formValue);
@@ -23,10 +24,12 @@ function Cadastro() {
    duracao: Number(formValue.duracao),
    trajeto: Number(formValue.trajeto)
   });
+
+  navigate("/trilhas");
  }
 
  return (
-  <div container className={styles.containerCadastro}>
+  <div className={styles.containerCadastro}>
    <Grid className={styles.titulo}>
     <h1>Cadastro de nova trilha</h1>
    </Grid>
