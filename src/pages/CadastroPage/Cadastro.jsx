@@ -57,9 +57,11 @@ function Cadastro() {
       <div>
        <InputLabel htmlFor="duracao">Duração estimada (min)</InputLabel>
        <TextField
-        type="number"
-        name="duracao"
         className={styles.camposPequeno}
+        type="number"
+        error={!!errors.duracao}
+        helperText={errors.duracao?.message}
+        name="duracao"
         placeholder="Duração estimada"
         {...register("duracao", {
          required: "Este campo é obrigatório.",
@@ -73,8 +75,10 @@ function Cadastro() {
       <div>
        <InputLabel htmlFor="trajeto">Trajeto (km)</InputLabel>
        <TextField
-        type="number"
         className={styles.camposPequeno}
+        type="number"
+        error={!!errors.trajeto}
+        helperText={errors.trajeto?.message}
         name="trajeto"
         placeholder="Trajeto"
         {...register("trajeto", {
@@ -89,8 +93,10 @@ function Cadastro() {
       <div>
        <InputLabel htmlFor="cidade">Cidade</InputLabel>
        <TextField
-        type="text"
         className={styles.camposPequeno}
+        type="text"
+        error={!!errors.cidade}
+        helperText={errors.cidade?.message}
         name="cidade"
         placeholder="Cidade"
         {...register("cidade", {
@@ -105,8 +111,10 @@ function Cadastro() {
       <div>
        <InputLabel htmlFor="estado">Estado</InputLabel>
        <TextField
-        type="text"
         className={styles.camposPequeno}
+        type="text"
+        error={!!errors.estado}
+        helperText={errors.estado?.message}
         name="estado"
         placeholder="Estado"
         {...register("estado", {
@@ -121,8 +129,10 @@ function Cadastro() {
       <div>
        <InputLabel htmlFor="usuario">Nome completo usuário</InputLabel>
        <TextField
-        type="text"
         className={styles.camposPequeno}
+        type="text"
+        error={!!errors.usuario}
+        helperText={errors.usuario?.message}
         name="usuario"
         placeholder="Nome completo usuário"
         {...register("usuario", {
@@ -136,8 +146,10 @@ function Cadastro() {
       <div>
        <InputLabel htmlFor="dificuldade">Dificuldade</InputLabel>
        <Select
-        name="dificuldade"
         className={styles.dificuldade}
+        name="dificuldade"
+        error={!!errors.dificuldade}
+        helperText={errors.dificuldade?.message}
         {...register("dificuldade", { required: "Este campo é obrigatório." })}>
         <MenuItem value="Iniciante">Iniciante</MenuItem>
         <MenuItem value="Intermediário">Intermediário</MenuItem>
@@ -149,8 +161,10 @@ function Cadastro() {
      <div className={styles.dadosTrilhas}>
       <InputLabel htmlFor="tipoTrilha">Tipo de trilha</InputLabel>
       <Select
-       name="tipoTrilha"
        className={styles.camposGrande}
+       name="tipoTrilha"
+       error={!!errors.tipoTrilha}
+       helperText={errors.tipoTrilha?.message}
        {...register("tipoTrilha", {
         required: "Este campo é obrigatório."
        })}>
@@ -160,8 +174,10 @@ function Cadastro() {
 
       <InputLabel htmlFor="urlTrilha">URL imagem da trilha</InputLabel>
       <TextField
-       type="text"
        className={styles.camposGrande}
+       type="text"
+       error={!!errors.urlTrilha}
+       helperText={errors.urlTrilha?.message}
        name="urlTrilha"
        placeholder="URL imagem da trilha"
        {...register("urlTrilha", {
