@@ -10,7 +10,7 @@
             "dificuldade": "Iniciante",
             "tipoTrilha": "caminhada/trekking",
             "nomeCriador": "Douglas Santos",
-            "urlImagem": "../src/assets/imagem-trilha-exemplo.jpg"
+            "urlImagem": "/assets/imagem-trilha-exemplo.jpg"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
             "dificuldade": "Iniciante",
             "tipoTrilha": "caminhada/trekking",
             "nomeCriador": "Douglas Santos",
-            "urlImagem": "../src/assets/imagem-trilha-exemplo.jpg"
+            "urlImagem": "/assets/imagem-trilha-exemplo.jpg"
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "dificuldade": "Iniciante",
             "tipoTrilha": "caminhada/trekking",
             "nomeCriador": "Douglas Santos",
-            "urlImagem": "../src/assets/imagem-trilha-exemplo.jpg"
+            "urlImagem": "/assets/imagem-trilha-exemplo.jpg"
         }
     ]
 }

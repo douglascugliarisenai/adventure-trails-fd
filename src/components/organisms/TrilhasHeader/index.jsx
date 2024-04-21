@@ -8,7 +8,7 @@ function TrilhasHeader() {
    <div className="navbar">
     <span className="logo">
      <Link className="labelHome" to="/">
-      <img src="../../../../src/assets/icone.png" alt="Logo da oágina" />
+      <img src="/assets/icone.png" alt="Logo da oágina" />
      </Link>
     </span>
 
