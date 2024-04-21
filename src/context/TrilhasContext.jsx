@@ -5,7 +5,7 @@ import getJson from "../hooks/getJson";
 export const TrilhasContext = createContext();
 
 export const TrilhasContextProvider = ({ children }) => {
- const [dados, isLoading] = getJson("../../public/data/cards.json");
+ const [dados, isLoading] = getJson("/data/cards.json");
  const [trilhas, setTrilhas] = useState([]);
 
  useEffect(() => {

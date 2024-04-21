@@ -10,7 +10,7 @@ function Trilhas() {
  return (
   <div className={styles.containerTrilhas}>
    <div className={styles.image}>
-    <img src="../src/assets/imagem-principal.png" alt="Imagem Header" />
+    <img src="/assets/imagem-principal.png" alt="Imagem Header" />
    </div>
    <div className={styles.containerCards}>
     <h1 className={styles.titulo}>Explore trilhas incríveis</h1>

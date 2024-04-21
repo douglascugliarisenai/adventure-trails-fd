@@ -42,7 +42,7 @@ function Home() {
       <Button className={styles.buttonCadastrar}>Cadastrar nova trilha</Button>
      </Link>
     </div>
-    <img src="../../src/assets/trilha-home.jpg" alt="Imagem de Trilha" />
+    <img src="/assets/trilha-home.jpg" alt="Imagem de Trilha" />
    </div>
   </>
  );
