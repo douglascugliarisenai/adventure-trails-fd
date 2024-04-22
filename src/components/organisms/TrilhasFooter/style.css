@@ -38,3 +38,15 @@
 .footer ul li {
  margin: 0 10px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+ .footer {
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  /* margin-top: 50px; */
+  width: 100%;
+  z-index: 100;
+ }
+}

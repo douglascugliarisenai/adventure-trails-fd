@@ -108,7 +108,7 @@
  border: 1px solid #504908;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1024px) {
  .containerPrincipalHome {
   display: flex;
   flex-direction: column;
