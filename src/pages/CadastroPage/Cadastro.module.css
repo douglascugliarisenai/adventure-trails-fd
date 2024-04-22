@@ -44,6 +44,8 @@ body {
  display: flex;
  color: #504908;
  margin: 10px 0 8px 0;
+ font-size: 14px;
+ font-weight: 500;
 }
 
 .dadosGerais {
@@ -106,4 +108,80 @@ form div {
  cursor: pointer;
  background-color: #504908;
  color: white !important;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+ .containerCadastro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d8e3d2;
+  width: 100%;
+  min-height: 100vh;
+ }
+
+ .containerCadastro h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+ }
+
+ .camposGrande {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+ }
+
+ .camposPequeno {
+  margin: 10px 0 8px 0;
+  display: flex;
+  color: #504908;
+  width: 100%;
+  font-size: 14px;
+ }
+
+ .containerButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  height: 30px;
+  width: 100%;
+ }
+
+ .buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .buttonCadastrar {
+  margin-top: 10px;
+  font-family: "Inter", sans-serif !important;
+  background-color: #504908 !important;
+  color: white !important;
+  font-weight: bold !important;
+ }
+
+ .buttonVoltar {
+  font-family: "Inter", sans-serif !important;
+  color: #504908 !important;
+  font-weight: bold !important;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #504908;
+ }
 }
